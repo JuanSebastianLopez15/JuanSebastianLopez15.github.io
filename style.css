@@ -91,3 +91,17 @@ footer {
 footer a {
   color: #58a6ff;
 }
+.skills-lista {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-lista li {
+  margin-bottom: 0.6rem;
+  color: #c9d1d9;
+}
+
+#sobre-mi p {
+  color: #c9d1d9;
+  font-size: 1.05rem;
+}
