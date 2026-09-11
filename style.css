@@ -62,11 +62,22 @@ section h2 {
   text-decoration: underline;
 }
 
+.proyecto-imgs {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+
 .proyecto-imgs img {
-  width: calc(50% - 0.5rem);
-  max-width: 350px;
+  display: block;
+  width: 100%;
+  max-width: 280px;
+  height: 180px;
+  object-fit: cover;
   border-radius: 6px;
   border: 1px solid #30363d;
+  flex: 1 1 280px;
 }
 
 footer {
