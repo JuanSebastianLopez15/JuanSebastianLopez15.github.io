@@ -62,6 +62,13 @@ section h2 {
   text-decoration: underline;
 }
 
+.proyecto-imgs img {
+  width: calc(50% - 0.5rem);
+  max-width: 350px;
+  border-radius: 6px;
+  border: 1px solid #30363d;
+}
+
 footer {
   text-align: center;
   padding: 2rem;
